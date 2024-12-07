@@ -1,0 +1,97 @@
+.membership-advertisement {
+    width: 90vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2a2c30;
+}
+
+.membership-advertisement > p {
+    color: whitesmoke;
+}
+
+.membership-advertisement > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+}
+
+.link {
+    color: red;
+}
+
+nav {
+    width: calc(90vw - 1px);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 3px 3px #888888;
+}
+
+.logo{
+    color: blue;
+}
+
+ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.active {
+    color: rgb(204, 1, 1);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .membership-advertisement {
+        width: 90vw;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2a2c30;
+    }
+
+    .membership-advertisement > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    nav {
+        width: calc(90vw - 1px);
+        height: 11vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0px 3px 3px #888888;
+    }
+
+    ul {
+        margin-top: 0.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

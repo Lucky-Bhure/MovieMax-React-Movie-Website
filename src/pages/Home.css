@@ -1,0 +1,124 @@
+.home-main-container {
+    width: 100%;
+    height: 86vh;
+    background: linear-gradient(rgb(46, 52, 62), rgb(55, 62, 74), rgb(55, 62, 74),rgb(55, 62, 74),rgb(55, 62, 74),white);
+    color: white;
+}
+
+.home-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.home-intro {
+    width: 50%;
+    height: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 13rem;
+    gap: 1rem;
+}
+
+.home-intro > h1 {
+    font-size: 3rem
+}
+
+.home-intro > p {
+    font-size: 1rem;
+}
+
+.explore-btn {
+    background-color: #b10f17;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: larger;
+}
+
+.explore-btn:hover {
+    background-color: #820d12;
+    box-shadow: rgba(112, 1, 1, 0.889) 1px 2px 5px;
+}
+
+.image-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container > img {
+    width: 80%;    
+}
+
+@media (max-width: 768px) {
+    .home-main-container {
+        width: 100%;
+        height: 79vh;
+        background: linear-gradient(rgb(46, 52, 62), rgb(55, 62, 74), rgb(55, 62, 74),rgb(55, 62, 74),rgb(55, 62, 74),white);
+        color: white;
+    }
+    
+
+    .home-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .home-intro {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 1rem;
+        gap: 2rem;
+    }
+    
+    .home-intro > h1 {
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .home-intro > p {
+        font-size: 1rem;
+    }
+
+    .home-intro > a {
+        margin-top: 2rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .explore-btn {
+        background-color: #b10f17;
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        font-size: larger;
+
+    }
+    
+    .explore-btn:hover {
+        background-color: #820d12;
+        box-shadow: rgba(112, 1, 1, 0.889) 1px 2px 5px;
+    }
+    
+    .image-container {
+        display: none;
+        border: 1px solid red;
+    }
+}

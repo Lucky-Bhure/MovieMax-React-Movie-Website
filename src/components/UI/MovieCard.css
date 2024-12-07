@@ -1,0 +1,30 @@
+.poster {
+    width: 80%;
+    height: 90%;
+    transform: translateY(-2.5rem);
+    box-shadow: 1px 5px 15px black;
+    position: relative;
+}
+
+.movie-name {
+    transform: translateY(-1rem);
+    text-align: justify;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+}
+
+.watch-btn {
+    width: 100%;
+    padding: 0.7rem 0;
+    background-color: #2a2c30;
+    color: whitesmoke;
+    font-weight: bold;
+    align-self: flex-end;
+    position: relative;
+}
+
+.movie-a-btn {
+    width: 100%;
+}
